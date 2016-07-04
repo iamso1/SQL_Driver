@@ -13,12 +13,6 @@ namespace SQL_Driver
         {
             SQL = string.Empty;
         }
-        //public static Table SELECT (string tableName, Query condition)
-        //{ 
-        //    Table table =new Table ();
-        //    table.SQL = "SELECT * FROM " + tableName + " WHERE " + condition.ToSQL();
-        //    return table;
-        //}
         public static Table SELECT(string tableName, Query condition, string fields = "*")
         {
             Table table = new Table();
